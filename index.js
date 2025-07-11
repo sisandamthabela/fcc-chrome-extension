@@ -1,12 +1,12 @@
 const inputEl = document.querySelector("#input-el");
 const inputBtn = document.querySelector("#input-btn");
-let leadsEl = document.querySelector("#leads-el");
-let myLeads = [];
+let ulEl = document.querySelector("#ul-el");
+let myLeads = [1, 2, 3, 4];
 
 inputBtn.addEventListener("click", function () {
   myLeads.push(inputEl.value);
 });
 
 for (let i = 0; i < myLeads.length; i++) {
-  leadsEl.innerHTML += "<li>" + myLeads[i] + "</li>";
+  ulEl.innerHTML += "<li>" + myLeads[i] + "</li>";
 }
