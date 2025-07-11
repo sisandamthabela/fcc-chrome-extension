@@ -1,0 +1,25 @@
+body {
+  padding: 10px;
+  background-color:#f5efff ;
+  font-family: "Roboto", sans-serif;
+}
+
+input {
+  width: 99%;
+  margin-bottom: 5px;
+  padding: 15px 15px;
+  border: 2px solid #7371fc;
+  box-sizing: border-box;
+  background-color: #fdfffc;
+}
+
+button {
+  padding: 15px 20px;
+  color: white;
+  background-color: #7371fc;
+  border: 0;
+  font-weight: bold;
+  font-family: inherit;
+  letter-spacing: 2px;
+  font-size: 16px;
+}
