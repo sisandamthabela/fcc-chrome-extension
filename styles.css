@@ -1,6 +1,6 @@
 body {
   padding: 10px;
-  background-color:#f5efff ;
+  background-color: #f5efff;
   font-family: "Roboto", sans-serif;
 }
 
@@ -14,12 +14,27 @@ input {
 }
 
 button {
-  padding: 15px 20px;
+  padding: 10px 15px;
   color: white;
   background-color: #7371fc;
   border: 0;
   font-weight: bold;
   font-family: inherit;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   font-size: 16px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 6px 0;
+}
+
+a {
+  color: #7371fc;
+  font-weight: 700;
+  font-size: 20px;
 }
